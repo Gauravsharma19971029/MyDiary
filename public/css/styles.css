@@ -1,0 +1,23 @@
+body {
+  background-color: #e8ecef;
+}
+
+.centered {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.secret-text {
+  font-size: 2rem;
+  color: #000;
+  padding-left: 120px;
+}
+.logout {
+  position: fixed;
+  right: 0px;
+  top: 10px;
+}
+
+.write {
+  margin-top: 20px;
+}

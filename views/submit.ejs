@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fa fa-book fa-6x" aria-hidden="true"></i>
+    <h1 class="display-3">My Diary</h1>
+
+    <form action="/submit" method="POST">
+      <div class="form-group">
+        <h3 class="write">Select Date</h3>
+        <input type="date" name="date" required />
+        <br />
+        <h3 class="write">Write Below</h3>
+        <textarea
+          type="text"
+          class="form-control text-center"
+          name="secret"
+          placeholder="Write your experience here "
+          rows="10"
+          required
+        >
+        </textarea>
+      </div>
+      <button onclick="confirm()" class="btn btn-dark">Submit</button>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer') %>
